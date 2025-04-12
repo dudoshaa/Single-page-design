@@ -1,12 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.min.css">
-    <title>SASS</title>
-</head>
-<body>
-   
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Single Page Design</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <img src="./images/site-logo.svg" alt="" width="64" height="64" />
+        <button class="btn button1">Free Consultation</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container container">
+          <h1 class="hero__title">Design solutions made easy</h1>
+          <p class="hero__description">
+            With over ten years of experience in various design disciplines, I’m
+            your one-stop shop for your design needs.
+          </p>
+        </div>
+      </section>
+
+      <section class="images">
+        <div class="images__container container">
+          <ul class="categories__list">
+            <li class="categories__item">
+              <h4 class="categories__title">Graphic Design</h4>
+            </li>
+            <li class="categories__item">
+              <h4 class="categories__title">UI/UX</h4>
+            </li>
+            <li class="categories__item">
+              <h4 class="categories__title">Apps</h4>
+            </li>
+            <li class="categories__item">
+              <h4 class="categories__title">Photography</h4>
+            </li>
+            <li class="categories__item">
+              <h4 class="categories__title">Illustrations</h4>
+            </li>
+            <li class="categories__item">
+              <h4 class="categories__title">Motion Graphics</h4>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="project">
+        <div class="project__container container">
+          <img
+            class="project__image"
+            src="./images/amy.png"
+            alt=""
+            width="445"
+            height="445"
+          />
+          <div class="project__conetent">
+            <h2 class="project__title">
+              I’m Amy, and I’d love to work on your next project
+            </h2>
+            <p class="project__desc">
+              I love working with others to create beautiful design solutions.
+              I’ve designed everything from brand illustrations to complete
+              mobile apps. I’m also handy with a camera!
+            </p>
+            <a href="#" class="btn button2">Free Consultation</a>
+          </div>
+        </div>
+      </section>
+      <section class="work">
+        <div class="work__container">
+          <div class="container">
+            <h2 class="work__title">My Work</h2>
+            <ul class="work__list">
+              <li class="work__item">
+                <img
+                  src="./images/Bitmap.png"
+                  alt=""
+                  width="540"
+                  height="360"
+                />
+              </li>
+              <li class="work__item">
+                <img
+                  src="./images/newspaper.png"
+                  alt=""
+                  width="540"
+                  height="360"
+                />
+              </li>
+              <li class="work__item">
+                <img
+                  src="./images/graphicdesign.png"
+                  alt=""
+                  width="540"
+                  height="360"
+                />
+              </li>
+            </ul>
+            <ul class="arrows__list">
+              <li class="arrows__item">
+                <a href="#" class="arrows arrows-left"></a>
+              </li>
+              <li class="arrows__list">
+                <a href="#" class="arrows arrows-right"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__call__container container">
+        <div class="footer__call__content">
+          <h2 class="footer__call__title">Book a call with me</h2>
+          <p class="footer__call__desc">
+            I’d love to have a chat to see how I can help you. The best first
+            step is for us to discuss your project during a free consultation.
+            Then we can move forward from there.
+          </p>
+        </div>
+        <a href="#" class="btn button2">Free Consultation</a>
+      </div>
+
+      <div class="footer__container container">
+        <img src="./images/site-logo.svg" alt="" width="64" height="64" />
+        <a href="#" class="btn button1">Free Consultation</a>
+      </div>
+    </footer>
+  </body>
 </html>
